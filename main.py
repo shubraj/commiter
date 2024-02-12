@@ -58,6 +58,6 @@ def create_past_commits(start_date):
 
 if __name__ == "__main__":
 
-    start_date = "2024-01-01"
+    start_date = "2024-10-01"
     
     create_past_commits(start_date)
