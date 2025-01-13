@@ -58,5 +58,5 @@ def create_past_commits(start_date):
         print("Error: Failed to push commits to the remote repository.")
 
 if __name__ == "__main__":
-    start_date = "2025-01-"
+    start_date = "2025-01-17"
     create_past_commits(start_date)
