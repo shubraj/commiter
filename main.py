@@ -29,7 +29,7 @@ def create_past_commits(start_date):
 
     current_date = start_date
     while current_date <= today:
-        num_commits = random.randint(10000,40000) # Number of commits for this date
+        num_commits = random.randint(100,1000) # Number of commits for this date
 
         for commit_number in range(num_commits):
             # Overwrite the same line in the file
